@@ -1,0 +1,13 @@
+#lang racket
+(require 2htdp/image)
+(require picturing-programs)
+
+#|
+Premise:
+Hello and welcome to our little community! We're glad to have you!
+Your first task is to implement a simple Hello World program in the language
+of your choice. Happy coding!
+|#
+
+(define HI (text "Hello, World!" 40 "black"))
+(show-it HI)
